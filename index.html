@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/css/main.css">
+    <script src="./src/js/get_slider/slider.js"></script>
+    <script src="./src/js/app.js" defer></script>
+    <title>Wildberris-Интернет-магазин</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="#" class="header__logo">
+                <img src="./src/img/logo.png" alt="Логотип" class="logo__pic">
+            </a>
+            <div class="header__search">
+                <button class="search__button"></button>
+                <input type="text" class="search__input" placeholder="Поиск...">
+            </div>
+            <div class="header__basket">
+                <button class="basket__button"></button>
+                <p class="basket__text">Корзина</p>
+            </div>
+        </div>
+    </header>
+    <section class="slider">
+        <div class="slider__wrapper">
+            <div class="slider__items">
+                <div class="slider__item">
+                    <img class="img-fluid" src="./src/img/swiper/slide_1.jpg" alt="..." width="1440px" height="400"
+                        loading="lazy">
+                </div>
+                <div class="slider__item">
+                    <img class="img-fluid" src="./src/img/swiper/slide_2.jpg" alt="..." width="1440px" height="400"
+                        loading="lazy">
+                </div>
+                <div class="slider__item">
+                    <img class="img-fluid" src="./src/img/swiper/slide_3.jpg" alt="..." width="1440px" height="400"
+                        loading="lazy">
+                </div>
+                <div class="slider__item">
+                    <img class="img-fluid" src="./src/img/swiper/slide_4.jpg" alt="..." width="1440px" height="400"
+                        loading="lazy">
+                </div>
+            </div>
+        </div>
+        <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+        <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+
+        <ol class="slider__indicators">
+            <li class="slider__indicator" data-slide-to="0"></li>
+            <li class="slider__indicator" data-slide-to="1"></li>
+            <li class="slider__indicator" data-slide-to="2"></li>
+            <li class="slider__indicator" data-slide-to="3"></li>
+        </ol>
+
+    </section>
+    <section class="goods">
+        <div class="goods__header">
+            <h2 class="goods__title">Хиты продаж</h2>
+            <div class="goods__user-search-container">
+            </div>
+        </div>
+        <div class="goods__container">
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
